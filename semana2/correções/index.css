@@ -19,6 +19,7 @@ h2 {
 h3 {
     position: relative;
     top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
@@ -82,6 +83,8 @@ div img {
     padding: 15px 0px;
     position: relative;
     top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 #container-para-comprar {
@@ -143,4 +146,6 @@ td button {
 p {
     position: relative;
     top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
