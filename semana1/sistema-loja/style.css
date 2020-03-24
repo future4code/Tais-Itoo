@@ -1,0 +1,98 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+
+#menu ul {
+
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color: darkorange;
+    list-style:none;
+    font-family:Tahoma;
+    font-size: 17px;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    padding: 7px 40px;
+    float:right;
+}
+
+#menu ul li a:hover {
+    background-color:chocolate;
+    color: gray;
+    }
+
+    h2 {
+        color: chocolate;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        float: right;
+        padding: 20px 50px 10px 20px;
+      }
+
+    figure {
+        float: center;
+    }
+    
+    table, td, th {
+        background-color: cornsilk;
+        float:center;
+        color: rgb(88, 88, 88);
+        border: 2px solid rgb(95, 95, 95);
+        font-family:Tahoma;
+        text-align: center;
+      }
+     
+      
+      th {
+          float:center;
+        text-align: auto;
+      }  
+      
+      .container {
+        padding:20px;
+        margin:20px;
+        float: left;
+        width: 100%;
+        background-color: darkorange;
+        list-style:none;
+        font-family:Tahoma;
+        font-size: 20 px;
+        text-align: 20px 20px;
+        color: honeydew;
+      }
+
+      form {
+        padding:20px;
+        margin:20px;
+        font-family:Tahoma;
+        font-size: 15 px;
+
+      }
+
+      ul.funcionarios {
+        list-style-type: none;
+        background: rgb(247, 140, 0);
+        padding: 20px;
+        
+      }
+      ul.funcionarios li {
+        background: #fceec0;
+        padding: 10px;
+        margin: 5px;
+        font-family:Tahoma;
+        font-size: 20 px;
+        color: rgb(107, 52, 0);
+      }
+
+      h1 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(197, 77, 33);
+    }
