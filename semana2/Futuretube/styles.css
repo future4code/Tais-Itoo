@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 80% 10%;
+}
+
+header {
+    width: 100%;
+    background-color: #ef843a;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+}
+
+video {
+    width: 20vw;
+    height: 20vw;
+    border: black 1px solid;
+    padding-top: 0;
+    color: black;
+}
+
+footer {
+    background-color: #323b3e;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    right: 10vw;
+    float: right;
+    position: relative;
+    align-items: center;
+    margin-top: 0;
+}
+
+.enviar input {
+    background-color: gray;
+}
+
+h2 {
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}

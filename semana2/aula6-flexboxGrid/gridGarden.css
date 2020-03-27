@@ -1,0 +1,113 @@
+#água {
+    grid-column-start: 3;
+}
+
+#Poção {
+    grid-column-start: 5;
+}
+
+#água {
+    grid-column-end: 4;
+}
+
+#água {
+    grid-column-end: 2;
+}
+
+#água {
+    grid-column-end: -2;
+}
+
+#Poção {
+    grid-column-start: -3;
+}
+
+#água {
+    grid-column-end: span 2;
+}
+
+#água {
+    grid-column-end: span 5;
+}
+
+#água {
+    grid-column-start: span 3;
+}
+
+#água {
+    grid-column: 4 / 6;
+}
+
+#água {
+    grid-column: span 3/5;
+}
+
+#água {
+    grid-row-start: 3;
+}
+
+#água {
+    grid-row: 3 /6;
+}
+
+#Poção {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#água {
+    grid-column: 2 /6;
+    grid-row: 1 / 6;
+}
+
+#água {
+    grid-area: 1 / 2 / 4 / 6;
+}
+
+#water-2 {
+    grid-area: 2 / 3 / 5 / 6;
+}
+
+.Poção {
+    order: 2;
+}
+
+.Poção {
+    order: -1;
+}
+
+#garden {
+    grid-template-columns: 50%;
+}
+
+#garden {
+    grid-template-columns: repeat(8, 12.5%);
+}
+
+#garden {
+    grid-template-columns: 100px 3em 40%;
+}
+
+#garden {
+    grid-template-columns: 1fr 5fr;
+}
+
+#garden {
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+}
+
+#garden {
+    grid-template-columns: 75px 3fr 2fr;
+}
+
+#garden {
+    grid-template-rows: 1px 1px 1px 47px;
+}
+
+#garden {
+    grid-template: 60% 50% /200px;
+}
+
+#garden {
+    grid-template: 1fr 50px / 20% 1fr;
+}

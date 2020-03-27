@@ -1,0 +1,188 @@
+                        body {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        .menu ul {
+                            padding: 0px;
+                            margin: 0px;
+                            float: left;
+                            width: 100%;
+                            background-color: white;
+                            list-style: none;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 17px;
+                        }
+                        
+                        .menu ul li {
+                            display: inline;
+                        }
+                        
+                        .menu ul li a {
+                            background-color: white;
+                            color: rgb(116, 116, 116);
+                            text-decoration: none;
+                            padding: 12px 40px;
+                            float: right;
+                        }
+                        
+                        .menu ul li a:hover {
+                            background-color: rgb(176, 148, 207);
+                            color: gainsboro;
+                        }
+                        
+                        .main {
+                            background-color: rgb(78, 63, 114);
+                            width: 100%;
+                            height: 580px;
+                        }
+                        
+                        h1.Tais {
+                            margin: 0px;
+                            position: relative;
+                            top: 10px;
+                            color: white;
+                            text-align: center;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        }
+                        
+                        p {
+                            text-align: center;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            font-size: 14px;
+                            color: white;
+                            line-height: 25px;
+                            word-spacing: 5px;
+                        }
+                        
+                        .formacao {
+                            background-color: white;
+                            width: 100%;
+                            height: 250px;
+                        }
+                        
+                        h3 {
+                            text-align: center;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            line-height: 50px;
+                            color: rgb(104, 104, 104);
+                        }
+                        
+                        h4 {
+                            text-align: center;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            color: rgb(63, 63, 63);
+                            padding: 30px;
+                        }
+                        
+                        div.box {
+                            padding: 50px;
+                            width: 315px;
+                            display: inline-block;
+                        }
+                        
+                        form {
+                            font-size: 16px;
+                            background: rgb(210, 179, 238);
+                            max-width: 500px;
+                            margin: auto;
+                            padding: 30px;
+                        }
+                        
+                        h1 {
+                            color: #333;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            text-align: center;
+                            position: relative;
+                            top: -10px;
+                        }
+                        
+                        input,
+                        textarea {
+                            width: 474px;
+                            padding: 10px;
+                        }
+                        
+                        .enviar input {
+                            background-color: rgb(78, 49, 116);
+                            height: 40px;
+                            width: 150px;
+                            font-weight: bold;
+                            border: 1px solid;
+                            color: #FFF;
+                            cursor: pointer;
+                        }
+                        
+                        .enviar input:hover {
+                            background: rgb(96, 64, 182);
+                        }
+                        
+                        textarea {
+                            width: 474px;
+                            height: 120px;
+                            line-height: 20px;
+                        }
+                        
+                        .topo {
+                            padding: 0px;
+                            margin: 0px;
+                            float: left;
+                            width: 100%;
+                            background-color: rgb(145, 56, 56);
+                            list-style: none;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 17px;
+                        }
+                        
+                        h1.projetos {
+                            color: rgb(255, 255, 255);
+                            position: relative;
+                            top: 30px;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            text-align: center;
+                        }
+                        
+                        .pro {
+                            padding: 0px;
+                            margin: 0px;
+                            position: relative;
+                            top: 20px;
+                            width: 100%;
+                            background-color: rgb(255, 255, 255);
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        }
+                        
+                        figure {
+                            position: absolute;
+                            padding: 30px;
+                            left: 70px;
+                        }
+                        
+                        .descr {
+                            position: relative;
+                            top: 20px;
+                            color: rgb(58, 58, 58);
+                        }
+                        
+                        .footer ul {
+                            float: center;
+                            position: relative;
+                            right: 400px;
+                            width: 100%;
+                            background-color: white;
+                            list-style: none;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 12px;
+                        }
+                        
+                        .footer ul li {
+                            display: inline;
+                        }
+                        
+                        .footer ul li a {
+                            background-color: white;
+                            color: rgb(116, 116, 116);
+                            text-decoration: none;
+                            padding: 12px 40px;
+                            float: right;
+                        }
