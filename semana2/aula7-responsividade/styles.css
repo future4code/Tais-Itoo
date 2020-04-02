@@ -1,0 +1,124 @@
+                                                    html,
+                                                    body {
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        box-sizing: border-box;
+                                                    }
+                                                    
+                                                    .a0 {
+                                                        background: red;
+                                                        grid-column-start: 1;
+                                                        grid-column-end: 4;
+                                                    }
+                                                    
+                                                    .a1 {
+                                                        border: 5px solid white;
+                                                        background: blue;
+                                                        grid-column-start: 1;
+                                                        grid-column-end: 2;
+                                                    }
+                                                    
+                                                    .a2 {
+                                                        border: 5px solid white;
+                                                        background: yellow;
+                                                        grid-column-start: 2;
+                                                        grid-column-end: 3;
+                                                    }
+                                                    
+                                                    .a3 {
+                                                        border: 5px solid white;
+                                                        background: green;
+                                                        grid-column-start: 3;
+                                                        grid-column-end: 4;
+                                                    }
+                                                    
+                                                    .a4 {
+                                                        border: 5px solid white;
+                                                        background: blue;
+                                                        grid-column-start: 1;
+                                                        grid-column-end: 2;
+                                                    }
+                                                    
+                                                    .a5 {
+                                                        border: 5px solid white;
+                                                        background: yellow;
+                                                        grid-column-start: 2;
+                                                        grid-column-end: 3;
+                                                    }
+                                                    
+                                                    .a6 {
+                                                        border: 5px solid white;
+                                                        background: green;
+                                                        grid-column-start: 3;
+                                                        grid-column-end: 4;
+                                                    }
+                                                    
+                                                    .a7 {
+                                                        border: 5px solid white;
+                                                        background: rgb(51, 51, 51);
+                                                        grid-column-start: 1;
+                                                        grid-column-end: 2;
+                                                    }
+                                                    
+                                                    .a8 {
+                                                        border: 5px solid white;
+                                                        background: #333333;
+                                                        grid-column-start: 2;
+                                                        grid-column-end: 3;
+                                                    }
+                                                    
+                                                    .a9 {
+                                                        border: 1px solid black;
+                                                        background: rgb(255, 255, 255);
+                                                        grid-column-start: 1;
+                                                        grid-column-end: 2;
+                                                    }
+                                                    
+                                                    .a10 {
+                                                        border: 1px solid black;
+                                                        background: rgb(255, 255, 255);
+                                                        display: grid;
+                                                        grid-column-start: 2;
+                                                        grid-column-end: 3;
+                                                    }
+                                                    
+                                                    .a11 {
+                                                        border: 1px solid black;
+                                                        background: rgb(255, 255, 255);
+                                                        display: grid;
+                                                        grid-column-start: 3;
+                                                        grid-column-end: 4;
+                                                    }
+                                                    
+                                                    .container {
+                                                        color: white;
+                                                        text-align: center;
+                                                        display: grid;
+                                                        color: black;
+                                                        grid-template-columns: 1fr 1fr 1fr;
+                                                        grid-template-rows: 15vh 15vh 15vh;
+                                                    }
+                                                    
+                                                    .container1 {
+                                                        color: white;
+                                                        text-align: center;
+                                                        display: grid;
+                                                        grid-template-columns: 1fr 1fr;
+                                                        grid-template-rows: 40vh;
+                                                    }
+                                                    
+                                                    .container2 {
+width:800px;
+                                                        grid-template-columns: 1fr;
+                                                        color: white;
+                                                        display: grid;
+                                                    }
+                                                    
+                                                    @media screen and (max-width: 600px) {
+                                                        .container2 {
+                                                            grid-template-columns: 1fr;
+                                                            grid-template-rows: repeat(12, 1fr);
+                                                            width: 100vw;
+                                                            height: 100vh;
+                                                        }
+                                                    }
