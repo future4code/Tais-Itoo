@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Planner</title>
+</head>
+
+<body>
+
+    <script type="application/javascript" src="index.js"></script>
+
+
+    <header class="header">
+        <a href="/">Planner semanal</a>
+
+        <input type="text" name="novaTarefa" id="novaTarefa" placeholder="Digite sua tarefa">
+        </input>
+
+
+
+        <div>
+
+            <select id="diaSemana" name="diaSemana">
+            <option>Segunda</option>           
+            <option>Terça</option> 
+            <option>Quarta</option> 
+            <option>Quinta</option> 
+            <option>Sexta</option> 
+            <option>Sábado</option> 
+            <option>Domingo</option> 
+        </select>
+            <button id="botao" onclick="adicionarItem()">Criar Tarefa</button>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="espaçotexto"></div>
+        <div>
+            Segunda
+            <ul></ul>
+        </div>
+        <div>
+            Terça
+            <ul></ul>
+        </div>
+        <div>
+            Quarta
+            <ul></ul>
+        </div>
+        <div>
+            Quinta
+            <ul></ul>
+        </div>
+        <div>
+            Sexta
+            <ul></ul>
+        </div>
+        <div>
+            Sábado
+            <ul></ul>
+        </div>
+        <div>
+            Domingo
+            <ul></ul>
+        </div>
+    </main>
+
+</body>
+
+</html>
