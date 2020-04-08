@@ -63,3 +63,15 @@
 //     arrayFinal.push(resultadoB);
 //     return arrayFinal;
 // }
+
+function minhaFuncao(quantidade) {
+    const container = document.getElementById("main-container")
+    for (let i = 1; i <= quantidade; i++) {
+        if (i % 2 === 0) {
+            container.innerHTML += "<div>" + i + "</div>"
+        } else {
+            container.innerHTML += "<span>" + i + "</span>"
+        }
+    }
+}
+minhaFuncao(5)
