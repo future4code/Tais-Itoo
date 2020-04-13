@@ -13,8 +13,12 @@ body {
 }
 
 div {
-    height: 45vh;
+    height: 200vh;
     border: 1px solid red;
     margin: 5%;
     padding: 10%;
+}
+
+#espaco-teste {
+    border: none;
 }
