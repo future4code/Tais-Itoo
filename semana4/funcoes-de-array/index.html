@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script type="application/javascript" src="index.js"></script>
+    <script src="index.js"></script>
     <title>Controlador de despesas</title>
 
 </head>
@@ -16,10 +16,11 @@
             <h2>Controlador de Despesas</h2>
             <h3>Cadastrar Despesas</h3>
             <label for="fname">Valor</label>
-            <input type="text" name="valor" id="valor"><br></input>
+            <input type="number" name="valor" id="input-valor"><br></input>
             <br>
             <label for="fname">Tipo(casa, viagens, rolês, outros):</label>
-            <select id="tipo" name="tipo">
+            <select id="select-despesa">
+            <option></option>
             <option value="casa">Casa</option>
             <option value="viagens">Viagens</option>
             <option value="roles">Rolês</option>
@@ -29,8 +30,11 @@
             <label for="fname">Descrição</label>
             <input type="text" name="descricao" id="descricao"><br></input>
             <br><br>
-            <button type="submit">Cadastrar Despesas</button>
+            <button onclick="criarDespesa()">Cadastrar Despesas
+            </button>
+            <div id="espaco-teste"></div>
         </div>
+
 
         <div>
             <h2>Despesas Detalhadas</h2>

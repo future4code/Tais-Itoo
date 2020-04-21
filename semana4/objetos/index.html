@@ -11,25 +11,11 @@
 </head>
 
 <body>
-
-    <aside>
-        <label for="fname">Título</label>
-        <input type="text" name="titulo" id="titulo"><br></input>
-        <br>
-        <label for="fname">Autor</label>
-        <input type="text" name="autor" id="autor"><br></input>
-        <br>
-        <label for="fname">Texto</label>
-        <textarea type="text" name="Texto" id="texto"></textarea>
-        <br><br>
-        <button type="submit">Adicionar conteúdo</button>
-    </aside>
-
-    <main>
-        <h2>Novo texto</h2>
-
-    </main>
-
+    <input id="titulo" type="text" placeholder="Título">
+    <input id="autor" type="text" placeholder="Autor">
+    <textarea id="conteudo" rows="15"></textarea>
+    <button onclick="criarPost()">CRIAR POST</button>
+    <div id="espaco-posts"></div>
 </body>
 
 </html>
