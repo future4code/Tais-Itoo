@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79fcef16.chunk.css",
+    "main.js": "/static/js/main.6ad46ea6.chunk.js",
+    "main.js.map": "/static/js/main.6ad46ea6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b07746c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b07746c.js.map",
+    "static/js/2.951bc711.chunk.js": "/static/js/2.951bc711.chunk.js",
+    "static/js/2.951bc711.chunk.js.map": "/static/js/2.951bc711.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.15cca691b14b5e987c5ce0535fb68343.js": "/precache-manifest.15cca691b14b5e987c5ce0535fb68343.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.79fcef16.chunk.css.map": "/static/css/main.79fcef16.chunk.css.map",
+    "static/js/2.951bc711.chunk.js.LICENSE.txt": "/static/js/2.951bc711.chunk.js.LICENSE.txt",
+    "static/media/1275228.svg": "/static/media/1275228.c282955b.svg",
+    "static/media/174855.png": "/static/media/174855.4a8c2347.png",
+    "static/media/Tais.png": "/static/media/Tais.d9ab2100.png",
+    "static/media/logo1.png": "/static/media/logo1.abbf3439.png",
+    "static/media/logo2.png": "/static/media/logo2.f86441a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b07746c.js",
+    "static/js/2.951bc711.chunk.js",
+    "static/css/main.79fcef16.chunk.css",
+    "static/js/main.6ad46ea6.chunk.js"
+  ]
+}
