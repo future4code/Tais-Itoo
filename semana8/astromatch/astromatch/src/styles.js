@@ -20,7 +20,7 @@ padding-left: 10vw;
 ` 
 
 export const PostPhoto = styled.img`
-width: 70vw;
+width: 40vw;
 align-self:center;
 justify-self:center;
 `   
