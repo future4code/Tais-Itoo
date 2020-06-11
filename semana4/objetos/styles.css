@@ -1,0 +1,9 @@
+input,
+textarea {
+    display: block;
+}
+
+#espaco-posts {
+    display: flex;
+    flex-direction: column-reverse;
+}

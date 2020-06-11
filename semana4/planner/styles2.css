@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.dia-semana {
+    border: 1px solid #dedede;
+}

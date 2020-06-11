@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    border: none;
+}
+
+div {
+    height: 200vh;
+    border: 1px solid red;
+    margin: 5%;
+    padding: 10%;
+}
+
+#espaco-teste {
+    border: none;
+}

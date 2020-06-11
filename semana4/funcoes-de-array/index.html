@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js"></script>
+    <title>Controlador de despesas</title>
+
+</head>
+
+<body>
+    <main class="container">
+        <div>
+            <h2>Controlador de Despesas</h2>
+            <h3>Cadastrar Despesas</h3>
+            <label for="fname">Valor</label>
+            <input type="number" name="valor" id="input-valor"><br></input>
+            <br>
+            <label for="fname">Tipo(casa, viagens, rolês, outros):</label>
+            <select id="select-despesa">
+            <option></option>
+            <option value="casa">Casa</option>
+            <option value="viagens">Viagens</option>
+            <option value="roles">Rolês</option>
+            <option value="outros">Outros</option>
+            </select>
+            <br><br>
+            <label for="fname">Descrição</label>
+            <input type="text" name="descricao" id="descricao"><br></input>
+            <br><br>
+            <button onclick="criarDespesa()">Cadastrar Despesas
+            </button>
+            <div id="espaco-teste"></div>
+        </div>
+
+
+        <div>
+            <h2>Despesas Detalhadas</h2>
+
+            <label for="fname">Tipo(casa, viagens, rolês, outros):</label>
+            <select id="tipo" name="tipo">
+            <option value="casa">Casa</option>
+            <option value="viagens">Viagens</option>
+            <option value="roles">Rolês</option>
+            <option value="outros">Outros</option>
+            </select>
+            <br><br>
+            <label for="fname">Valor Mínimo</label>
+            <input type="text" name="titulo" id="titulo"><br></input>
+            <br>
+            <label for="fname">Valor Máximo</label>
+            <input type="text" name="autor" id="autor"><br></input>
+            <br><br>
+            <button type="submit">Filtrar</button>
+            <button type="submit">Limpar Filtros</button>
+        </div>
+
+        <div>
+            <h2>Extrato</h2>
+            <h3>Valor total:</h3>
+
+            <input type="text" name="titulo" id="titulo"><br></input>
+
+
+
+        </div>
+    </main>
+</body>
+
+</html>
